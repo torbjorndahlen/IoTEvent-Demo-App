@@ -1,6 +1,6 @@
 (function(){
   'use strict';
-var cmsapp = angular.module('md-boilerplate', [
+var cmsapp = angular.module('IoTEvent-Demo-App', [
   'ui.router',
   'sidenav',
   'list',
@@ -12,7 +12,7 @@ var cmsapp = angular.module('md-boilerplate', [
 ]);
 
 cmsapp.config(function($mdThemingProvider) {
-  $mdThemingProvider.theme('md-boilerplate-theme')
+  $mdThemingProvider.theme('IoTEvent-Demo-App-theme')
     .primaryPalette('red')
     .accentPalette('indigo')
     .warnPalette('deep-purple')
